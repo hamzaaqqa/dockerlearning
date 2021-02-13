@@ -1,0 +1,13 @@
+to install docker on any linux version
+
+first i will download a script from docker repo by using this command 
+
+#curl -fsSL https://get.docker.com -o get-docker.sh
+
+and then execute the script that i downloaded from the repo of docker
+
+#sh get-docker.sh
+
+when the script ends, a message shows that i need to creat 
+
+usermod -aG docker root
